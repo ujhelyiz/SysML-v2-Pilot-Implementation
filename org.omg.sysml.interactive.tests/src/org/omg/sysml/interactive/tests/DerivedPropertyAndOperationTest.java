@@ -56,6 +56,7 @@ public class DerivedPropertyAndOperationTest extends SysMLInteractiveTest {
 		assertEquals(2, usages.size());
 		assertTrue("Not AttributeUsage", usages.get(0) instanceof AttributeUsage);
 		assertTrue("Not ItemUsage", usages.get(1) instanceof ItemUsage);
+		org.junit.Assert.fail("Failing test to check report");
 	}
 	
 	@Test
