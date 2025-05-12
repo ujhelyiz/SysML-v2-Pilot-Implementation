@@ -1,3 +1,5 @@
+Trivial non-breaking change
+
 = SysML v2 Pilot Implementation Protoyping
 
 This software is licensed under the GNU Lesser General Public License. See the files LICENSE and LICENSE-GPL.
