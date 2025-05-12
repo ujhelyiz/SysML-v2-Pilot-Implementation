@@ -364,7 +364,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Systems-Modeling Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/Systems-Modeling/SysML-v2-Pilot-Implementation</url>
+      <url>https://maven.pkg.github.com/ujhelyiz/SysML-v2-Pilot-Implementation</url>
     </repository>
   </distributionManagement>
 
