@@ -33,7 +33,7 @@ jobs:
       uses: mikepenz/action-junit-report@v5
       if: success() || failure() # always run even if the previous step fails
       with:
-        report_paths: '**/build/test-results/test/TEST-*.xml'
+        report_paths: '**/target/surefire-reports/TEST-*.xml'
         include_passed: true
     - name: Verify index generation
       run: echo $(git diff -- sysml.library/.index.json) | grep -e '^$' || (echo "Library index in the git repository is not up to date. Please re-generate it and push changes to the repository."; exit 1)
