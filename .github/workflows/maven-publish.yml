@@ -10,8 +10,8 @@ name: Publish Maven release
 
 on:
   workflow_dispatch
-release:
-    types: [published]
+  release:
+      types: [published]
 
 jobs:
   build:
